@@ -1,0 +1,231 @@
+body {
+	margin:0px;
+	font-size:16px;
+	background-color:#e3dac9;
+}
+
+.main {
+	width: 100%;
+	height:60%;
+	background-image:url(images/background_office.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+/*Header*/
+.bgheader {
+	width: 100%;
+	height: 25%;
+	background-image:url(images/background_office.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.header{
+	width:50%;
+	height:25%px;
+	margin:0 auto;
+}
+
+#container{
+	height:100%;
+	width:50%;
+	margin:0 auto;
+	background-color:#ffffff;
+	padding:0.5%;
+	margin-top:0.5%;
+}
+
+.logo{
+	float:left;
+	margin-top:5%
+}
+
+nav {
+	float:right;
+	margin-top:26px;
+}
+
+.navbar{
+	color:#fff;
+	font-size:25px;
+	margin-left:20px;
+	text-decoration:none;
+}
+
+.navbar:hover{
+	text-decoration:underline;
+}
+
+span{
+	width:100%;
+}
+
+h1 {
+	font-size: 68px;
+	color:#fff;
+	text-align:center;
+	clear: both;
+	padding-top:6%
+}
+
+.port {
+	padding:3%
+}
+
+h2 {
+	font-size: 36px;
+	color:#fff;
+	text-align:center;
+	clear: both;
+	margin-top: -60px;
+}
+
+/*Gallery*/
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+	height: 20%;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 20%;
+    height: 100%;
+	float: left;
+}
+
+div.desc {
+	padding:10px;
+	padding-left:210px;
+	float:center;
+    text-align: left;
+}
+
+/*slider*/
+#imgs img 
+{
+    /*overlays all the imgs */
+    /*You see only the first img, for now*/
+    width:50%;
+    height:50%;
+    position:absolute;
+    top:30%;
+    left:25%;
+    transition: 1s;
+    visibility:hidden;
+    /*we want to show only 1 img at the time*/
+}
+/*the container */
+#Snav 
+{
+    display:block;
+    width:50%;
+    height:50%;
+    position:absolute;
+    top:30%;
+    left:25%;
+}
+/* where the circles are going to be*/
+#SnavUp 
+{
+    display:block;
+    width:100%;
+    height:20%;
+}
+#Scircles 
+{
+    display:block;
+    width:5%;
+    height:15%;
+    margin-right:5%;
+    margin-top:2%;
+    float:right;        /* is going to be on the right side of the slider*/
+}
+#Scircles ul 
+{
+    margin:0;
+    float:right;
+    display:block;
+    width:100%;
+    height:100%;
+}
+#Scircles li
+{
+    /*we don't need the dots*/
+    list-style:none;
+    display:block;
+    background-color:rgba(0, 0, 0, 1);
+    width:25%;
+    height:90%;
+    margin-left:5%;
+    float:left;     /*on the same line*/
+    visibility:hidden;
+    /*we need circles, not squares*/
+    border-bottom-left-radius:25px;
+    border-top-left-radius:25px;
+    border-bottom-right-radius:25px;
+    border-top-right-radius:25px;
+
+}
+/*ok , we are done with the SnavUp*/
+#SnavMiddle 
+{
+    display:block;
+    width:100%;
+    height:15%;
+    margin-top:10%;     /*this is up to you , where you want the buttons*/
+}
+/*left button*/
+#Sleft 
+{
+    width:8%;
+    height:100%;
+    float:left;
+    margin-left:3%;
+    opacity:0.8;
+}
+/*button effect*/
+#Sleft:hover 
+{
+    opacity:0.6;
+}
+#Sright 
+{
+    width:8%;
+    height:100%;
+    float:right;
+    margin-right:3%;
+    opacity:0.8;
+}
+#Sright:hover 
+{
+    opacity:0.6;
+}
+/*now we have to add the info at the bottom of the slider*/
+#SnavBottom 
+{
+    display:block;
+    background-color:rgba(0, 0, 0, 0.8);
+    width:100%;
+    height:15%;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+#SnavBottom p 
+{
+    font:normal 150% Arial;
+    color:#fff;
+    position:absolute;
+    bottom:0;
+    left:0;
+    margin-left:3%;
+    visibility:hidden;
+}
+/*that's all , now we need to code the slider, the effect*/
