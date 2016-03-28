@@ -1,114 +1,5 @@
-body {
-	margin:0px;
-	font-size:16px;
-	background-color:#e3dac9;
-}
-
-.main {
-	width: 100%;
-	height:60%;
-	background-image:url(images/background_office.jpg);
-	background-position:center;
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-/*Header*/
-.bgheader {
-	width: 100%;
-	height: 25%;
-	background-image:url(images/background_office.jpg);
-	background-position:center;
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-
-.header{
-	width:50%;
-	height:25%px;
-	margin:0 auto;
-}
-
-#container{
-	height:100%;
-	width:50%;
-	margin:0 auto;
-	background-color:#ffffff;
-	padding:0.5%;
-	margin-top:0.5%;
-}
-
-.logo{
-	float:left;
-	margin-top:5%
-}
-
-nav {
-	float:right;
-	margin-top:26px;
-}
-
-.navbar{
-	color:#fff;
-	font-size:25px;
-	margin-left:20px;
-	text-decoration:none;
-}
-
-.navbar:hover{
-	text-decoration:underline;
-}
-
-span{
-	width:100%;
-}
-
-h1 {
-	font-size: 68px;
-	color:#fff;
-	text-align:center;
-	clear: both;
-	padding-top:6%
-}
-
-.port {
-	padding:3%
-}
-
-h2 {
-	font-size: 36px;
-	color:#fff;
-	text-align:center;
-	clear: both;
-	margin-top: -60px;
-}
-
-/*Gallery*/
-div.img {
-    margin: 5px;
-    border: 1px solid #ccc;
-    width: 100%;
-	height: 20%;
-}
-
-div.img:hover {
-    border: 1px solid #777;
-}
-
-div.img img {
-    width: 20%;
-    height: 100%;
-	float: left;
-}
-
-div.desc {
-	padding:10px;
-	padding-left:210px;
-	float:center;
-    text-align: left;
-}
-
 /*slider*/
-#imgs img 
+#imgs img
 {
     /*overlays all the imgs */
     /*You see only the first img, for now*/
@@ -122,7 +13,7 @@ div.desc {
     /*we want to show only 1 img at the time*/
 }
 /*the container */
-#Snav 
+#Snav
 {
     display:block;
     width:50%;
@@ -132,13 +23,13 @@ div.desc {
     left:25%;
 }
 /* where the circles are going to be*/
-#SnavUp 
+#SnavUp
 {
     display:block;
     width:100%;
     height:20%;
 }
-#Scircles 
+#Scircles
 {
     display:block;
     width:5%;
@@ -147,7 +38,7 @@ div.desc {
     margin-top:2%;
     float:right;        /* is going to be on the right side of the slider*/
 }
-#Scircles ul 
+#Scircles ul
 {
     margin:0;
     float:right;
@@ -174,7 +65,7 @@ div.desc {
 
 }
 /*ok , we are done with the SnavUp*/
-#SnavMiddle 
+#SnavMiddle
 {
     display:block;
     width:100%;
@@ -182,7 +73,7 @@ div.desc {
     margin-top:10%;     /*this is up to you , where you want the buttons*/
 }
 /*left button*/
-#Sleft 
+#Sleft
 {
     width:8%;
     height:100%;
@@ -191,11 +82,11 @@ div.desc {
     opacity:0.8;
 }
 /*button effect*/
-#Sleft:hover 
+#Sleft:hover
 {
     opacity:0.6;
 }
-#Sright 
+#Sright
 {
     width:8%;
     height:100%;
@@ -203,12 +94,12 @@ div.desc {
     margin-right:3%;
     opacity:0.8;
 }
-#Sright:hover 
+#Sright:hover
 {
     opacity:0.6;
 }
 /*now we have to add the info at the bottom of the slider*/
-#SnavBottom 
+#SnavBottom
 {
     display:block;
     background-color:rgba(0, 0, 0, 0.8);
@@ -218,7 +109,7 @@ div.desc {
     bottom:0;
     left:0;
 }
-#SnavBottom p 
+#SnavBottom p
 {
     font:normal 150% Arial;
     color:#fff;

@@ -1,0 +1,23 @@
+h1 {
+    padding: 3%
+}
+
+.item1 {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.item2 {
+    display: flex;
+}
+
+.left {
+    align: left;
+    width: 30%;
+    margin-right: 0;
+}
+
+.right {
+    text-align: left;
+    width: 65%;
+}
